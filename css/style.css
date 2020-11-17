@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  margin-left: 30px;
+  margin-left: 30px;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header{
+  z-index: 9999;
+  width: 100%;
+  padding: 30px 4% 10px;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+img{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+h1{
+  margin: 0; padding: 0;
+  font-size: 25px;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+ul{
+  list-style: none;
+  margin: 0;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+li{
+  margin: 0 0 0 15px;
+  font-size: 14px;
+}
+nav{
+  margin: 0 0 0 auto;
+}
+
+.menuList h1{
+  font-size: 25px;
+font-family: 'TsukuARdGothic-Regular',sans-serif;
+  color: #222;
+}
+
+.menuList{
+  margin-top: 200px;
+}
