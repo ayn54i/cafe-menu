@@ -4,8 +4,7 @@
 
 body{
   margin: 0;
-  margin-left: 30px;
-  margin-left: 30px;
+
   padding: 0;
   overflow-x: hidden;
 }
@@ -51,12 +50,28 @@ nav{
   margin: 0 0 0 auto;
 }
 
+.title h1{
+  font-size: 30px;
+  color: #222;
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+  position: relative;
+  top: 130px;
+  margin-left: 50px;
+}
+
 .menuList h1{
   font-size: 25px;
-font-family: 'TsukuARdGothic-Regular',sans-serif;
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
   color: #222;
 }
 
+.menuList img{
+  margin-right: 40px;
+  margin-bottom: 0;
+}
+
 .menuList{
-  margin-top: 200px;
+  position: relative;
+  top: 200px;
+  margin-left: 50px;
 }
