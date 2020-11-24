@@ -4,7 +4,6 @@
 
 body{
   margin: 0;
-
   padding: 0;
   overflow-x: hidden;
 }
@@ -55,7 +54,7 @@ nav{
   color: #222;
   font-family: 'TsukuARdGothic-Regular',sans-serif;
   position: relative;
-  top: 130px;
+  top: 150px;
   margin-left: 50px;
 }
 
@@ -63,15 +62,25 @@ nav{
   font-size: 25px;
   font-family: 'TsukuARdGothic-Regular',sans-serif;
   color: #222;
+  margin-left: 60px;
+  display: flex;
 }
 
 .menuList img{
-  margin-right: 40px;
-  margin-bottom: 0;
+  margin: 20px;
+  display: flex;
 }
 
 .menuList{
   position: relative;
-  top: 200px;
-  margin-left: 50px;
+  top: 220px;
+  margin-bottom: 60px;
+}
+
+.menu-img{
+  margin-left: 40px;
+}
+
+.menu-img p{
+  margin-left: 40px;
 }
